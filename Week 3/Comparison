@@ -44,10 +44,18 @@ For the representation of the Time Signature, both software look similar, MEI lo
 Pitch
 MusicXML
 In MusicXML file, <step> representative name of pitch (e.g. C, D, E). <octave>: indicates the octave position.
+<pitch>
+          <step>B</step>
+          <octave>4</octave>
+          </pitch>
 
 MEI
 In MEI file,pname: Used to denote a phonetic name (the name of the letter of the pitch, e.g., ‘C’, ‘D’, ‘E’).oct: Used to indicate the octave of the pitch. accid: Used to indicate a change of notation (e.g. accid=‘s’ for ascending, accid=‘f’ for descending).
 <note xml:id="n1d2lqsm" oct="5" pname="f" accid.ges="s" />
+Conclusion
+It's all full names in the XML file, which I think is better suited for music creators to get it done. Whereas MEI files with more specialised names are more suitable for programmers to work on.
 
-
+Rhythm
+MusicXML
+In MusicXML, the rhythm is represented by the <duration> and <type> elements
 
