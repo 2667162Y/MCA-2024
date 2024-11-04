@@ -13,3 +13,7 @@ In MusicXML, each note of a chord is a separate <note> element, and each note el
         <stem>down</stem>
         <staff>1</staff>
         </note>
+
+MEI
+In MEI, the <chord> element directly contains all the notes within a chord, and the notes are represented as child of the <note> element.
+
