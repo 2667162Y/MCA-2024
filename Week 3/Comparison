@@ -43,6 +43,10 @@ For the representation of the Time Signature, both software look similar, MEI lo
 
 Pitch
 MusicXML
-In MusicXML file, pname 
+In MusicXML file, <step> representative name of pitch (e.g. C, D, E). <octave>: indicates the octave position.
+
+MEI
+
+
 
 
