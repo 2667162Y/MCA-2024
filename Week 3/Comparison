@@ -36,6 +36,9 @@ In MusicXML，the beat number is represented in the <time> element, the number o
 
 MEI
 In MEI, The beat number is represented by the special <meterSig> element, the beat by count and the unit time value by unit.
+ <meterSig xml:id="m2oykyy" count="4" unit="4" />
+Conclusion
+For the representation of the Time Signature, both software look similar, MEI looks more structured and does not take up too many lines.
 
 
 
