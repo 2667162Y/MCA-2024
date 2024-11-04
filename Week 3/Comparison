@@ -16,4 +16,13 @@ In MusicXML, each note of a chord is a separate <note> element, and each note el
 
 MEI
 In MEI, the <chord> element directly contains all the notes within a chord, and the notes are represented as child of the <note> element.
+ <chord xml:id="c67bph0" dur.ppq="16" dur="4" stem.dir="down">
+                              <note xml:id="n1df6wvq" oct="3" pname="d" />
+                              <note xml:id="n8kxs7w" oct="3" pname="f" accid.ges="s" />
+                              <note xml:id="nqqbr16" oct="3" pname="a" />
+                              <note xml:id="n1wc2nb6" oct="4" pname="d" />
+                           </chord>
+Conclusion
+The MusicXML allows for more precise control down to the individual note, while the MEI looks more structurally workmanlike.
+
 
