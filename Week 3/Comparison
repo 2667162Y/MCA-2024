@@ -46,7 +46,8 @@ MusicXML
 In MusicXML file, <step> representative name of pitch (e.g. C, D, E). <octave>: indicates the octave position.
 
 MEI
-In MEI file,pname: Used to denote a phonetic name (the name of the letter of the pitch, e.g., ‘C’, ‘D’, ‘E’).oct: Used to indicate the octave of the pitch.
+In MEI file,pname: Used to denote a phonetic name (the name of the letter of the pitch, e.g., ‘C’, ‘D’, ‘E’).oct: Used to indicate the octave of the pitch. accid: Used to indicate a change of notation (e.g. accid=‘s’ for ascending, accid=‘f’ for descending).
+<note xml:id="n1d2lqsm" oct="5" pname="f" accid.ges="s" />
 
 
 
