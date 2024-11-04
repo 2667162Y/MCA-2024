@@ -1,1 +1,3 @@
-
+Chord elements
+MusicXML
+In MusicXML, each note of a chord is a separate <note> element, and each note element is marked as part of the chord by including a <chord> elemetn.
