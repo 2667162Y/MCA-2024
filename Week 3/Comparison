@@ -1,31 +1,3 @@
-Chord elements
-MusicXML
-In MusicXML, each note of a chord is a separate <note> element, and each note element is marked as part of the chord by including a <chord> elemetn.
-<note default-x="147.74" default-y="10">
-        <chord/>
-        <pitch>
-          <step>A</step>
-          <octave>5</octave>
-          </pitch>
-        <duration>16</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <staff>1</staff>
-        </note>
-
-MEI
-In MEI, the <chord> element directly contains all the notes within a chord, and the notes are represented as child of the <note> element.
- <chord xml:id="c67bph0" dur.ppq="16" dur="4" stem.dir="down">
-                              <note xml:id="n1df6wvq" oct="3" pname="d" />
-                              <note xml:id="n8kxs7w" oct="3" pname="f" accid.ges="s" />
-                              <note xml:id="nqqbr16" oct="3" pname="a" />
-                              <note xml:id="n1wc2nb6" oct="4" pname="d" />
-                           </chord>
-Conclusion
-The MusicXML allows for more precise control down to the individual note, while the MEI looks more structurally workmanlike.
-
-
 Time Signature
 MusicXML
 In MusicXML，the beat number is represented in the <time> element, the number of beats per measure is represented by <beats> and the time value of the beat is <beat-type>.
@@ -57,5 +29,41 @@ It's all full names in the XML file, which I think is better suited for music cr
 
 Rhythm
 MusicXML
-In MusicXML, the rhythm is represented by the <duration> and <type> elements
+In MusicXML, the rhythm is represented by the <duration> and <type> elements,<duration>: the basic unit of note duration.<type>: indicates the specific type of note
+<duration>16</duration>
+ <type>quarter</type>
 
+MEI
+In MEI, the tempo is represented by the dur attribute of the <note> element, which represents the time value of the note.
+dur=‘4’: quarter note 
+<chord xml:id="cjgm2z0" dur.ppq="16" dur="4" stem.dir="down">
+Conclusion
+XML files allow one to understand the meaning of element names at once, while MEI files are more convenient for editors to edit variables.
+
+
+Chord elements
+MusicXML
+In MusicXML, each note of a chord is a separate <note> element, and each note element is marked as part of the chord by including a <chord> elemetn.
+<note default-x="147.74" default-y="10">
+        <chord/>
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+          </pitch>
+        <duration>16</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>1</staff>
+        </note>
+
+MEI
+In MEI, the <chord> element directly contains all the notes within a chord, and the notes are represented as child of the <note> element.
+ <chord xml:id="c67bph0" dur.ppq="16" dur="4" stem.dir="down">
+                              <note xml:id="n1df6wvq" oct="3" pname="d" />
+                              <note xml:id="n8kxs7w" oct="3" pname="f" accid.ges="s" />
+                              <note xml:id="nqqbr16" oct="3" pname="a" />
+                              <note xml:id="n1wc2nb6" oct="4" pname="d" />
+                           </chord>
+Conclusion
+The MusicXML allows for more precise control down to the individual note, while the MEI looks more structurally workmanlike.
