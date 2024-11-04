@@ -25,4 +25,10 @@ In MEI, the <chord> element directly contains all the notes within a chord, and 
 Conclusion
 The MusicXML allows for more precise control down to the individual note, while the MEI looks more structurally workmanlike.
 
+Time Signature
+MusicXML
+In MusicXML，the beat number is represented in the <time> element, the number of beats per measure is represented by <beats> and the time value of the beat is <beat-type>.
+
+
+
 
