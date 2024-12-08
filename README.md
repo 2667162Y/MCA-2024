@@ -5,6 +5,6 @@ Task 1 My choice in Week 1 is Jingle Bell. It is one of the most frequently sung
 Task 2 Challenge At this early stage, the main problem I'm finding is access issues. The score in particular is quite old, plus the piece is a bit difficult therefore there are many problems when converting to editable mode, such as missing notes or notes that are very different from the original, which will need to be corrected at a later stage.So I'm concerned about whether the final product will match the original
 
 
-# <a href="https://github.com/2667162Y/MCA-2024/blob/master/Week2/Jingle%20Bell.jpg">Week 2</a>
+# <a href="https://github.com/2667162Y/MCA-2024/blob/master/Week2/2.md">Week 2</a>
 
 # Week 3
