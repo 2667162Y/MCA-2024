@@ -1,6 +1,6 @@
 # Xinping Yi's Individual Lab
 
-# <a href="blankPage.html">Week 1</a>
+# <a href="https://2667162y.github.io/MCA-2024/blankpage.html">Week 1</a>
 
 # Week 2
 
