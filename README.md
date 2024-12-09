@@ -1,4 +1,4 @@
-Xinping Yi's Individual Lab
+# Xinping Yi's Individual Lab
 
 # Week 1
 
