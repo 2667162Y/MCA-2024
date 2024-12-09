@@ -1,6 +1,6 @@
 # Xinping Yi's Individual Lab
 
-# <a href="">Week 1</a>
+# <a href="blankPage.html">Week 1</a>
 
 # Week 2
 
