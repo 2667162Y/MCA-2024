@@ -10,10 +10,10 @@
 
 # <a href="https://2667162y.github.io/MCA-2024/Week 5/blankPage.html">Week 5</a>
 
-# Week 7
+# <a href="https://2667162y.github.io/MCA-2024/Week 7/blankPage.html">Week 7</a>
 
-# Week 8
+# <a href="https://2667162y.github.io/MCA-2024/Week 8/blankPage.html">Week 8</a>
 
-# Week 9
+# <a href="https://2667162y.github.io/MCA-2024/Week 9/blankPage.html">Week 9</a>
 
-# Week 10
+# <a href="https://2667162y.github.io/MCA-2024/Week 10/blankPage.html">Week 10</a>
